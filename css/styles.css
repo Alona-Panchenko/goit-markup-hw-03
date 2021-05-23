@@ -67,6 +67,7 @@ img {
 .header {
   background-color: var(--primary-background-color);
   border-bottom: 1px solid var(--header-border);
+  margin-bottom: 47px;
 }
 
 .main-nav {
@@ -94,6 +95,8 @@ img {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-part {
   color: #2196f3;
@@ -313,7 +316,7 @@ img {
   letter-spacing: 0.03em;
   /* text-align: left; */
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .features-idea {
@@ -326,6 +329,10 @@ img {
 }
 
 /* чем мы занимаемся */
+
+.make {
+  padding-top: 0;
+}
 
 .picture {
   display: block;
@@ -356,8 +363,14 @@ img {
 
 /* наша команда */
 
-.team {
-  background-color: var(--section-background-color);
+.team-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .worker {
@@ -390,6 +403,10 @@ img {
   text-align: center;
   color: var(--second-text-color);
 }
+
+.team-card-footer {
+  background: var(--primary-background-color);
+}
 /* футер */
 
 footer {
@@ -399,11 +416,11 @@ footer {
 }
 
 .contact {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 
 .footer-adress {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-webstudio .footer-logo {
